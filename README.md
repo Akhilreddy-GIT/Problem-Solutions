@@ -8,7 +8,7 @@ Codeforces, LeetCode, CSES, CodeChef &amp; GeeksforGeeks solutions, organized cl
 
 Synced automatically by SolveBase.
 
-**Total solved: 152**
+**Total solved: 153**
 
 ## Codeforces
 
@@ -27,11 +27,12 @@ Solutions by [Paradox.exe](https://codeforces.com/profile/Paradox.exe), organize
 
 Solutions organized by primary topic folder.
 
-**Solved: 33**
+**Solved: 34**
 
 | Topic | Solved |
 | --- | --- |
 | [array](./leetcode/array) | 2 |
+| [bit-manipulation](./leetcode/bit-manipulation) | 1 |
 | [database](./leetcode/database) | 10 |
 | [hash-table](./leetcode/hash-table) | 2 |
 | [linked-list](./leetcode/linked-list) | 4 |
