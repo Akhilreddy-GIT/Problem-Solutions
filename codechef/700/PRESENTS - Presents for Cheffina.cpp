@@ -1,7 +1,6 @@
 # cook your dish here
-t = int(input())
+T = int(input())
 
-for _ in range(t):
-    n = int(input())
-    cost = n - (n // 5)
-    print(cost)
+for _ in range(T):
+    N = int(input())
+    print(N - N // 5)
