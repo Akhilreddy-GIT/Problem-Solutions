@@ -1,5 +1,6 @@
-T=int(input())
+# cook your dish here
+T = int(input())
 
 for _ in range(T):
-    N=int(input())
-    print(N*(N-1))
+    N = int(input())
+    print(N * (N - 1))
