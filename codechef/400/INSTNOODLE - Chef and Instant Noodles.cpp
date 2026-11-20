@@ -1,15 +1,9 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+#include <iostream>
+using namespace std;
 
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-	     Scanner sc=new Scanner(System.in);
-	     int a = sc.nextInt();
-	     int b = sc.nextInt();
-	     
-	     System.out.println(a*b);
-	}
+int main() {
+    int x, y;
+    cin >> x >> y;
+    cout << x * y << endl;
+    return 0;
 }
