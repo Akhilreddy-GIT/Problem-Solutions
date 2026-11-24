@@ -1,15 +1,15 @@
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main() {
     int X, Y;
-    cin >> X >> Y;
+    scanf("%d %d", &X, &Y);
 
     if (X >= 2 * Y) {
-        cout << "Yes" << endl;
-    } else {
-        cout << "No" << endl;
+        printf("Yes");
+    }
+    else {
+        printf("No");
     }
 
     return 0;
