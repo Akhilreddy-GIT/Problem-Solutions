@@ -1,15 +1,15 @@
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main() {
     int a, b;
-    cin >> a >> b;
+    scanf("%d %d", &a, &b);
 
     if (a + b + (a * b) == 111) {
-        cout << "Yes" << endl;
-    } else {
-        cout << "No" << endl;
+        printf("Yes");
+    }
+    else {
+        printf("No");
     }
 
     return 0;
