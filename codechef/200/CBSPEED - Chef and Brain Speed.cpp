@@ -1,17 +1,6 @@
+X, Y = map(int, input().split())
 
-#include <stdio.h>
-
-int main() {
-    int X, Y;
-    scanf("%d %d", &X, &Y);
-
-    if (Y > X) {
-        printf("YES");
-    }
-    else {
-        printf("NO");
-    }
-
-    return 0;
-}
-
+if Y > X:
+    print("YES")
+else:
+    print("NO")
