@@ -1,19 +1,19 @@
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main() {
     int T;
-    cin >> T;
+    scanf("%d", &T);
 
     for (int i = 1; i <= T; i++) {
         int X;
-        cin >> X;
+        scanf("%d", &X);
 
         if (X >= 2000) {
-            cout << "YES" << endl;
-        } else {
-            cout << "NO" << endl;
+            printf("YES\n");
+        }
+        else {
+            printf("NO\n");
         }
     }
 
