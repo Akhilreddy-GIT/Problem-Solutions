@@ -1,13 +1,5 @@
+# cook your dish here
 
-#include <stdio.h>
+N = int(input())
 
-int main() {
-    int N;
-    scanf("%d", &N);
-
-    printf("%d", 2 * N);
-
-    return 0;
-}
-
-
+print(2 * N)
