@@ -1,16 +1,17 @@
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main() {
     int X, Y;
-    cin >> X >> Y;
+    scanf("%d %d", &X, &Y);
 
     if (Y > X) {
-        cout << "YES" << endl;
-    } else {
-        cout << "NO" << endl;
+        printf("YES");
+    }
+    else {
+        printf("NO");
     }
 
     return 0;
 }
+
