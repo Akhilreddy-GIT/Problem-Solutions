@@ -1,16 +1,15 @@
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main() {
     int T;
-    cin >> T;
+    scanf("%d", &T);
 
     for (int i = 1; i <= T; i++) {
         int A, B;
-        cin >> A >> B;
+        scanf("%d %d", &A, &B);
 
-        cout << A + B << endl;
+        printf("%d\n", A + B);
     }
 
     return 0;
