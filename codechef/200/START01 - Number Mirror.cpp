@@ -1,12 +1,4 @@
+# cook your dish here
 
-#include <stdio.h>
-
-int main() {
-    int N;
-    scanf("%d", &N);
-
-    printf("%d", N);
-
-    return 0;
-}
-
+N = int(input())
+print(N)
