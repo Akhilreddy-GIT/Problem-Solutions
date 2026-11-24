@@ -1,16 +1,7 @@
 
-#include <stdio.h>
+X, Y = map(int, input().split())
 
-int main() {
-    int X, Y;
-    scanf("%d %d", &X, &Y);
-
-    if (X >= 2 * Y) {
-        printf("Yes");
-    }
-    else {
-        printf("No");
-    }
-
-    return 0;
-}
+if X >= 2 * Y:
+    print("Yes")
+else:
+    print("No")
