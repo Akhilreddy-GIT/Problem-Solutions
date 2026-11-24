@@ -1,13 +1,5 @@
+# cook your dish here
 
-#include <stdio.h>
+X, Y = map(int, input().split())
 
-int main() {
-    int X, Y;
-    scanf("%d %d", &X, &Y);
-
-    printf("%d", X * Y);
-
-    return 0;
-}
-
-
+print(X * Y)
