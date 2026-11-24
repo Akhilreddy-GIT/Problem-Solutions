@@ -1,9 +1,13 @@
-#include <iostream>
-using namespace std;
+
+#include <stdio.h>
 
 int main() {
-    int n;
-    cin >> n;
-    cout << n * 2 << endl;
+    int N;
+    scanf("%d", &N);
+
+    printf("%d", 2 * N);
+
     return 0;
 }
+
+
