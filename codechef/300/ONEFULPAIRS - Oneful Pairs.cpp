@@ -1,16 +1,7 @@
 
-#include <stdio.h>
+a, b = map(int, input().split())
 
-int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
-
-    if (a + b + (a * b) == 111) {
-        printf("Yes");
-    }
-    else {
-        printf("No");
-    }
-
-    return 0;
-}
+if a + b + (a * b) == 111:
+    print("Yes")
+else:
+    print("No")
